@@ -66,6 +66,7 @@ build/obj/main.o: src/main.c c:\chibistudio\chibios161\os\rt\include\ch.h \
  c:\chibistudio\chibios161\os\hal\include\pal.h \
  c:\chibistudio\chibios161\os\hal\ports\stm32\lld\gpiov1\pal_lld.h \
  c:\chibistudio\chibios161\os\hal\include\adc.h \
+ c:\chibistudio\chibios161\os\hal\ports\stm32\stm32f1xx\adc_lld.h \
  c:\chibistudio\chibios161\os\hal\include\can.h \
  c:\chibistudio\chibios161\os\hal\ports\stm32\lld\canv1\can_lld.h \
  c:\chibistudio\chibios161\os\hal\include\dac.h \
@@ -89,7 +90,7 @@ build/obj/main.o: src/main.c c:\chibistudio\chibios161\os\rt\include\ch.h \
  c:\chibistudio\chibios161\os\hal\include\mmc_spi.h \
  c:\chibistudio\chibios161\os\hal\include\serial_usb.h \
  c:\chibistudio\chibios161\test\rt\test.h include/console.h \
- include/CanComm.h
+ include/CanComm.h include/measure.h
 
 c:\chibistudio\chibios161\os\rt\include\ch.h:
 
@@ -233,6 +234,8 @@ c:\chibistudio\chibios161\os\hal\ports\stm32\lld\gpiov1\pal_lld.h:
 
 c:\chibistudio\chibios161\os\hal\include\adc.h:
 
+c:\chibistudio\chibios161\os\hal\ports\stm32\stm32f1xx\adc_lld.h:
+
 c:\chibistudio\chibios161\os\hal\include\can.h:
 
 c:\chibistudio\chibios161\os\hal\ports\stm32\lld\canv1\can_lld.h:
@@ -282,3 +285,5 @@ c:\chibistudio\chibios161\test\rt\test.h:
 include/console.h:
 
 include/CanComm.h:
+
+include/measure.h:

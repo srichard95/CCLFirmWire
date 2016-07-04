@@ -19,6 +19,7 @@
 #include "chprintf.h"
 
 #include "console.h"
+#include "measure.h"
 
 /*===========================================================================*/
 /* Command line related.                                                     */
@@ -83,6 +84,7 @@ static const ShellCommand commands[] = {
   {"mem", cmd_mem},
   {"threads", cmd_threads},
   {"test", cmd_test},
+  {"adcvalues", cmd_getAdcValues},
   {NULL, NULL}
 };
 

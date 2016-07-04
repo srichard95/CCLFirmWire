@@ -121,6 +121,7 @@ CSRC = $(STARTUPSRC) \
        src/main.c \
        src/console.c \
        src/CanComm.c \
+       src/measure.c \
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.

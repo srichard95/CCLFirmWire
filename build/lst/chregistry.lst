@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 1
 
 
    1              		.syntax unified
@@ -17,14 +17,14 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   14              		.file	"chregistry.c"
   15              		.text
   16              	.Ltext0:
-  17              		.section	.gnu.lto_.profile.ab66c7fd,"",%progbits
+  17              		.section	.gnu.lto_.profile.b66e3a5b,"",%progbits
   18 0000 789C6366 		.ascii	"x\234cf```a\200\000F\006Y!\000\000\300\0008"
   18      60606061 
   18      80004606 
   18      59210000 
   18      C00038
   19              		.text
-  20              		.section	.gnu.lto_.jmpfuncs.ab66c7fd,"",%progbits
+  20              		.section	.gnu.lto_.jmpfuncs.b66e3a5b,"",%progbits
   21 0000 789C6366 		.ascii	"x\234cf\300\016\004\2404\023\010322\32632\227\203\370"
   21      C00E04A0 
   21      34130833 
@@ -33,7 +33,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   22 0014 0008FA01 		.ascii	"\000\010\372\001\025"
   22      15
   23              		.text
-  24              		.section	.gnu.lto_.inline.ab66c7fd,"",%progbits
+  24              		.section	.gnu.lto_.inline.b66e3a5b,"",%progbits
   25 0000 789C6366 		.ascii	"x\234cf\300\016\364\2414\023\003\003'\007#\003\023\317"
   25      C00EF4A1 
   25      34130303 
@@ -50,15 +50,15 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   27      00802005 
   28 0033 47       		.ascii	"G"
   29              		.text
-  30              		.section	.gnu.lto_.pureconst.ab66c7fd,"",%progbits
+  30              		.section	.gnu.lto_.pureconst.b66e3a5b,"",%progbits
   31 0000 789C6366 		.ascii	"x\234cf```e\200\000&\006+&+\000\001{\000\201"
   31      60606065 
   31      80002606 
   31      2B262B00 
   31      017B0081 
   32              		.text
-  33              		.section	.gnu.lto_chRegFirstThread.ab66c7fd,"",%progbits
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 2
+  33              		.section	.gnu.lto_chRegFirstThread.b66e3a5b,"",%progbits
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 2
 
 
   34 0000 789C8D53 		.ascii	"x\234\215SYL\023Q\024}\367\315\264\224-\020?\374\340"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   45      AEE5FB26 
   45      2763110C 
   45      E7
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 3
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 3
 
 
   46 00d5 40988F67 		.ascii	"@\230\217g\017BF\362\177t\207\033\3635M\213\206Z\210"
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   57      5740E49A 
   57      095C0511 
   57      038F0ACA 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 4
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 4
 
 
   58 01b1 3E8BB1DF 		.ascii	">\213\261\337\247\320F\226\373b\350~s(G_ch\270\216\347"
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   69      B055AFE1 
   69      CF347767 
   69      69EE8105 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 5
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 5
 
 
   70 028a 93696FCE 		.ascii	"\223io\316\365c\341\251\377\362c+\367\343L\257x\313"
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   81      6CCBD821 
   81      233AE15F 
   82 0363 54355B45 		.ascii	"T5[E@\364\306\344M\346-)\252-]\261/5/J T!!\016\233\303"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 6
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 6
 
 
   82      40F4C6E4 
@@ -308,7 +308,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   83 037e A964939F 		.ascii	"\251d\223\237\017\016\375]"
   83      0F0EFD5D 
   84              		.text
-  85              		.section	.gnu.lto_chRegNextThread.ab66c7fd,"",%progbits
+  85              		.section	.gnu.lto_chRegNextThread.b66e3a5b,"",%progbits
   86 0000 789C8D54 		.ascii	"x\234\215ToL[U\024\277\347\276\327\327\002e\020?\231"
   86      6F4C5B55 
   86      14BFE7BE 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
   96 00a9 C1E868AB 		.ascii	"\301\350h\253F[Pi\033\237j\215\347\224v\012\021\272"
   96      465B5069 
   96      1B9F6A8D 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 7
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 7
 
 
   96      E794760A 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  108 018e F512847E 		.ascii	"\365\022\204~K\357\232m\325VU\222\030\356\001Y@\222"
  108      4BEF9A6D 
  108      D5565592 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 8
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 8
 
 
  108      18EE0159 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  119      A4C51BC2 
  120 0268 91E28E45 		.ascii	"\221\342\216E$\223\255\214\356\220\333C\215\221\275"
  120      2493AD8C 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 9
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 9
 
 
  120      EE90DB43 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  131      1283DA
  132 033d 92D04F49 		.ascii	"\222\320OI\241\237\227B\317V\3658\252\372g\210$:\216"
  132      A19F9742 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 10
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 10
 
 
  132      CF56F538 
@@ -598,14 +598,14 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  144 040e F7B8AB64 		.ascii	"\367\270\253d#\343\006\263\373\275\376\200Q\317\376"
  144      23E306B3 
  144      FBBDFE80 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 11
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 11
 
 
  144      51CFFE
  145 041d 065CDC54 		.ascii	"\006\\\334T."
  145      2E
  146              		.text
- 147              		.section	.gnu.lto_.symbol_nodes.ab66c7fd,"",%progbits
+ 147              		.section	.gnu.lto_.symbol_nodes.b66e3a5b,"",%progbits
  148 0000 789C6366 		.ascii	"x\234cf``\360f\200\002\246m\214\365\014\014\023\316"
  148      6060F066 
  148      8002A66D 
@@ -629,14 +629,14 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  152 0047 00F6D013 		.ascii	"\000\366\320\023\221"
  152      91
  153              		.text
- 154              		.section	.gnu.lto_.refs.ab66c7fd,"",%progbits
+ 154              		.section	.gnu.lto_.refs.b66e3a5b,"",%progbits
  155 0000 789C6366 		.ascii	"x\234cf``\340f\200\000F bfdbbde\000\000\001z\000\037"
  155      6060E066 
  155      80004620 
  155      62666462 
  155      62646500 
  156              		.text
- 157              		.section	.gnu.lto_.decls.ab66c7fd,"",%progbits
+ 157              		.section	.gnu.lto_.decls.b66e3a5b,"",%progbits
  158 0000 789CB53B 		.ascii	"x\234\265;\013TT\311\225]\257\272i\272i\232\3118!s<"
  158      0B5454C9 
  158      955DAFBA 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  161      40014110 
  161      1550
  162 004e 50C00F8A 		.ascii	"P\300\017\212\370\001\001A\024i\001\345\343\017\004"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 12
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 12
 
 
  162      F8010141 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  173      BF206861 
  173      79C9
  174 011e 5D0E7388 		.ascii	"]\016s\210\224s3\256\267\351_/\342y~=_\327\211$\036"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 13
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 13
 
 
  174      947333AE 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  185      4ED37179 
  185      43D17B34 
  185      4E9533E3 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 14
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 14
 
 
  185      7A971195 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  196      5CC7EAEE 
  197 02cc 3616F772 		.ascii	"6\026\367r\370\004v\361b\003\365b\257\361\302\352\034"
  197      F80476F1 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 15
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 15
 
 
  197      6203F562 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  208      D8726215 
  208      BA820C42 
  208      7C1C
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 16
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 16
 
 
  209 03a9 5A17FB6B 		.ascii	"Z\027\373k\034\255&\336\204\353\0236\255@\3406\314\006"
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  220      7D0C89BF 
  220      5278568B 
  220      0FA9
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 17
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 17
 
 
  221 047f 5D96195F 		.ascii	"]\226\031_\266\314$6m\255\307\024\235\245A/\245o<\037"
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  232      C7B454FA 
  233 054c 22821E68 		.ascii	"\"\202\036h\3509\347\215\207Y]\365@\364e-\036a\310\344"
  233      E839E78D 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 18
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 18
 
 
  233      87595DF5 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  244      FA
  245 062a 3E5DFCD7 		.ascii	">]\374\327mi\347p-\253\333\332x\305\007_`\345S\011\271"
  245      6D69E770 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 19
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 19
 
 
  245      2DABDBDA 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  256      2A145EBE 
  256      744A
  257 0709 8B1F78B8 		.ascii	"\213\037x\270\314Y\003\233\263Y\216\361\353:\374\230"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 20
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 20
 
 
  257      CC59039B 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  269      31451B49 
  269      6CB17B37 
  269      426C4617 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 21
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 21
 
 
  270 07e9 466EDE93 		.ascii	"Fn\336\223\333\211s\240\246\264\370\203\322b\306\324"
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  281      E04E46BB 
  281      4099BB6C 
  281      D8ED5473 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 22
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 22
 
 
  281      915B3AC7 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  293 099e 86A7B984 		.ascii	"\206\247\271\204`\2152C1\261\006\011\221I\2225\316s"
  293      608D3243 
  293      31B10609 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 23
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 23
 
 
  293      91499235 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  305      423A1BC9 
  305      04DBAF3C 
  305      1B99ADE4 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 24
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 24
 
 
  306 0a80 BD6A72E9 		.ascii	"\275jr\351\3250\353\025=Q\031\244'*$\222\270\236\250"
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  317      D590DFF0 
  317      75B3B3EF 
  317      9106
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 25
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 25
 
 
  318 0b57 6842A6C2 		.ascii	"hB\246\302\204S\205\3119Up\304\367\336\345\344*\310"
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  329      F01CE14A 
  329      BE12ADC6 
  330 0c30 F3513406 		.ascii	"\363Q4\006\2025B\013\022\205Rp\000J\302\376(\031 \021"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 26
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 26
 
 
  330      8235420B 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  341 0d09 DA71631C 		.ascii	"\332qc\034S\216t\206\234\337a?\340\203O1\322\2643\333"
  341      538E7486 
  341      9CDF613F 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 27
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 27
 
 
  341      E0834F31 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  353      6408988B 
  353      1CED03F5 
  353      A51674CE 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 28
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 28
 
 
  354 0dec D4C4E861 		.ascii	"\324\304\350a\316\224\301\313\275\222\025\200\3069s"
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  365      29C794A0 
  365      B0D3E475 
  365      CF36B9B8 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 29
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 29
 
 
  365      93DF
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  376      36D2138C 
  377 0f92 0B40715A 		.ascii	"\013@qZ2\3409\231\001g\327\234mF"
  377      32E03999 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 30
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 30
 
 
  377      0167D79C 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  389 106e 911DC5DD 		.ascii	"\221\035\305\335\000\275\374\2051\350\205i\336\207\305"
  389      00BDFC85 
  389      31E88569 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 31
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 31
 
 
  389      DE87C5
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  400      4F099462 
  400      FC7DE2
  401 1150 C4684729 		.ascii	"\304hG)Y\031I\214hq\347*;2\022cy\006\314\343i`6C\230"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 32
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 32
 
 
  401      5919498C 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  412      F7E68DB1 
  412      DD3CA677 
  412      9D3957CF 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 33
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 33
 
 
  412      E2B9
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  424      BFBFE862 
  424      16
  425 12ff F030F0D4 		.ascii	"\3600\360\324\031\352\373\351j\346^\273\325\001\250"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 34
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 34
 
 
  425      19EAFBE9 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  436      6093
  437 13cc 9202D228 		.ascii	"\222\002\322(%\212\204\233\225\010e\026\235\2214\335"
  437      258A849B 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 35
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 35
 
 
  437      95086516 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  448      07000E
  449 14a8 AAE7CB97 		.ascii	"\252\347\313\227;_\266\334\035\316\252\350\324\321\303"
  449      3B5FB6DC 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 36
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 36
 
 
  449      1DCEAAE8 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  460      E167DE9B 
  460      C554E3
  461 157f BD6A214B 		.ascii	"\275j!K\021\2275\362\246T\375\252\012\235P/V\241\223"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 37
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 37
 
 
  461      119735F2 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  472      1DE39294 
  472      7413BB
  473 1656 71699671 		.ascii	"qi\226qivri\241\\\326\227\224\325\350\350!.\371\277"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 38
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 38
 
 
  473      69767269 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  484      3ADB636E 
  484      67EF713A 
  485 1737 35E6ECC7 		.ascii	"5\346\354\307\367_\274\353\351\356\354\316\257ET\310"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 39
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 39
 
 
  485      F75FBCEB 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  497 1805 FE8D88C8 		.ascii	"\376\215\210\310\010\363\033\346\240\317C\003C#\202"
  497      08F31BE6 
  497      A0CF4303 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 40
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 40
 
 
  497      432382
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  509      6DE19121 
  509      668A
  510 18ed 2F090B5A 		.ascii	"/\011\013Zj\325\332,\346%V\023\361\037R\320\204[\227"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 41
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 41
 
 
  510      6AD5DA2C 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  521 19c7 ACC1CB42 		.ascii	"\254\301\313B`H\027=\177\013\020\013\015\336\371\032"
  521      6048173D 
  521      7F0B100B 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 42
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 42
 
 
  521      0DDEF91A 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  533      3B52F220 
  533      ED832C5E 
  533      F0080BB2 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 43
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 43
 
 
  533      DA08
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  545 1b7f 541567CD 		.ascii	"T\025g\3152\262\250\013\003I\242\036-\276\260\300\022"
  545      32B2A80B 
  545      0349A21E 
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 44
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 44
 
 
  545      2DBEB0C0 
@@ -2613,7 +2613,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  551      FF03DE
  552 1bfc BDCD35   		.ascii	"\275\3155"
  553              		.text
- 554              		.section	.gnu.lto_.symtab.ab66c7fd,"",%progbits
+ 554              		.section	.gnu.lto_.symtab.b66e3a5b,"",%progbits
  555 0000 63685265 		.ascii	"chRegFirstThread\000\000\000\000\000\000\000\000\000"
  555      67466972 
  555      73745468 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  559      02000000 
  559      000000
  560 0062 000000FC 		.ascii	"\000\000\000\374\001\000\000chThdRelease\000\000\002"
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 45
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 45
 
 
  560      01000063 
@@ -2675,7 +2675,7 @@ ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 1
  569              		.comm	__gnu_lto_v1,1,1
  570              		.comm	__gnu_lto_slim,1,1
  571              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-br
-ARM GAS  C:\Users\srich\AppData\Local\Temp\ccmaqrTy.s 			page 46
+ARM GAS  C:\Users\srich\AppData\Local\Temp\cc8ToYhg.s 			page 46
 
 
 DEFINED SYMBOLS

@@ -67,6 +67,7 @@ build/obj/st.o: c:\chibistudio\chibios161\os\hal\src\st.c \
  c:\chibistudio\chibios161\os\hal\include\pal.h \
  c:\chibistudio\chibios161\os\hal\ports\stm32\lld\gpiov1\pal_lld.h \
  c:\chibistudio\chibios161\os\hal\include\adc.h \
+ c:\chibistudio\chibios161\os\hal\ports\stm32\stm32f1xx\adc_lld.h \
  c:\chibistudio\chibios161\os\hal\include\can.h \
  c:\chibistudio\chibios161\os\hal\ports\stm32\lld\canv1\can_lld.h \
  c:\chibistudio\chibios161\os\hal\include\dac.h \
@@ -231,6 +232,8 @@ c:\chibistudio\chibios161\os\hal\include\pal.h:
 c:\chibistudio\chibios161\os\hal\ports\stm32\lld\gpiov1\pal_lld.h:
 
 c:\chibistudio\chibios161\os\hal\include\adc.h:
+
+c:\chibistudio\chibios161\os\hal\ports\stm32\stm32f1xx\adc_lld.h:
 
 c:\chibistudio\chibios161\os\hal\include\can.h:
 

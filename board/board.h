@@ -102,7 +102,7 @@
  * PA12 - Alternate Push Pull output 10MHz.         (CAN_TX)
  */
 #define VAL_GPIOACRL            0x44000000      /*  PA7...PA0 */
-#define VAL_GPIOACRH            0x88894334      /* PA15...PA8 */
+#define VAL_GPIOACRH            0x888944B4      /* PA15...PA8 */
 #define VAL_GPIOAODR            0xFFFFFFFF
 
 /*

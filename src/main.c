@@ -19,6 +19,7 @@
 #include "test.h"
 #include "console.h"
 #include "CanComm.h"
+#include "measure.h"
 
 
 /*
@@ -40,16 +41,13 @@ int main(void) {
   chThdSleepMilliseconds(100);
 
 
-
+  init_measures();
   palClearPad(GPIOB, GPIOB_LED3);
   palClearPad(GPIOB, GPIOB_LED1);
   palClearPad(GPIOB, GPIOB_LED2);
 
   chThdSleepMilliseconds(100);
   palSetPad(GPIOB, GPIOB_LED3);
-
-  palSetPad(GPIOA, GPIOA_TXD1);
-  palSetPad(GPIOA, GPIOA_RXD1);
 
   CanCommInit();
 
@@ -59,7 +57,6 @@ int main(void) {
    * pressed the test procedure is launched.
    */
   while (true) {
-    sdPut(&SD1, 'c');
     consoleStart();
     chThdSleepMilliseconds(200);
   }

@@ -88,6 +88,7 @@ build/obj/console.o: src/console.c \
  c:\chibistudio\chibios161\os\hal\include\pal.h \
  c:\chibistudio\chibios161\os\hal\ports\stm32\lld\gpiov1\pal_lld.h \
  c:\chibistudio\chibios161\os\hal\include\adc.h \
+ c:\chibistudio\chibios161\os\hal\ports\stm32\stm32f1xx\adc_lld.h \
  c:\chibistudio\chibios161\os\hal\include\can.h \
  c:\chibistudio\chibios161\os\hal\ports\stm32\lld\canv1\can_lld.h \
  c:\chibistudio\chibios161\os\hal\include\dac.h \
@@ -114,7 +115,7 @@ build/obj/console.o: src/console.c \
  c:\chibistudio\chibios161\os\various\shell.h \
  c:\chibistudio\chibios161\os\hal\lib\streams\chprintf.h \
  c:\chibistudio\tools\gnu\ tools\ arm\ embedded\4.9\ 2015q3\lib\gcc\arm-none-eabi\4.9.3\include\stdarg.h \
- include/console.h
+ include/console.h include/measure.h
 
 c:\chibistudio\tools\gnu\ tools\ arm\ embedded\4.9\ 2015q3\arm-none-eabi\include\string.h:
 
@@ -300,6 +301,8 @@ c:\chibistudio\chibios161\os\hal\ports\stm32\lld\gpiov1\pal_lld.h:
 
 c:\chibistudio\chibios161\os\hal\include\adc.h:
 
+c:\chibistudio\chibios161\os\hal\ports\stm32\stm32f1xx\adc_lld.h:
+
 c:\chibistudio\chibios161\os\hal\include\can.h:
 
 c:\chibistudio\chibios161\os\hal\ports\stm32\lld\canv1\can_lld.h:
@@ -353,3 +356,5 @@ c:\chibistudio\chibios161\os\hal\lib\streams\chprintf.h:
 c:\chibistudio\tools\gnu\ tools\ arm\ embedded\4.9\ 2015q3\lib\gcc\arm-none-eabi\4.9.3\include\stdarg.h:
 
 include/console.h:
+
+include/measure.h:
