@@ -21,8 +21,10 @@ enum measChannels
 
 #define SAMPLE_FREQUENCY_MS 50
 
-#define NULL_AMPER_ADC   910
-#define AMP_PER_ADC      13.6
+#define NULL_AMPER_ADC   2040
+#define AMP_PER_ADC      43.3
+
+#define LED_ON_AMP 10
 
 /*
  * 5A @ 68

@@ -21,6 +21,38 @@
 #include "CanComm.h"
 #include "measure.h"
 
+#define ANIMATION_SPEED 300
+
+void SwitchOffLeds(){
+  palClearPad(GPIOB, GPIOB_LED3);
+  palClearPad(GPIOB, GPIOB_LED1);
+  palClearPad(GPIOB, GPIOB_LED2);
+}
+
+void SwitchOnAnimation(){
+
+  chThdSleepMilliseconds(ANIMATION_SPEED);
+  SwitchOffLeds();
+  palSetPad(GPIOB, GPIOB_LED3);
+
+  chThdSleepMilliseconds(ANIMATION_SPEED);
+  SwitchOffLeds();
+  palSetPad(GPIOB, GPIOB_LED2);
+
+  chThdSleepMilliseconds(ANIMATION_SPEED);
+  SwitchOffLeds();
+  palSetPad(GPIOB, GPIOB_LED1);
+
+  chThdSleepMilliseconds(ANIMATION_SPEED);
+  SwitchOffLeds();
+  palSetPad(GPIOB, GPIOB_LED2);
+
+  chThdSleepMilliseconds(ANIMATION_SPEED);
+  SwitchOffLeds();
+  palSetPad(GPIOB, GPIOB_LED3);
+
+  chThdSleepMilliseconds(ANIMATION_SPEED);
+}
 
 /*
  * Application entry point.
@@ -41,14 +73,13 @@ int main(void) {
   chThdSleepMilliseconds(100);
 
 
-  init_measures();
+
   palClearPad(GPIOB, GPIOB_LED3);
   palClearPad(GPIOB, GPIOB_LED1);
   palClearPad(GPIOB, GPIOB_LED2);
 
-  chThdSleepMilliseconds(100);
-  palSetPad(GPIOB, GPIOB_LED3);
-
+  SwitchOnAnimation();
+  init_measures();
   CanCommInit();
 
   /*

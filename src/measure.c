@@ -39,9 +39,9 @@ static const ADCConversionGroup adcgrpcfg = {
   0,                                                                       /* CR1 */
   0,                                                         /* CR2 */
   NULL,
-  ADC_SMPR2_SMP_AN4(ADC_SAMPLE_13P5) | ADC_SMPR2_SMP_AN5(ADC_SAMPLE_13P5) |
-  ADC_SMPR2_SMP_AN2(ADC_SAMPLE_13P5) | ADC_SMPR2_SMP_AN3(ADC_SAMPLE_13P5) |
-  ADC_SMPR2_SMP_AN0(ADC_SAMPLE_13P5) | ADC_SMPR2_SMP_AN1(ADC_SAMPLE_13P5),
+  ADC_SMPR2_SMP_AN4(ADC_SAMPLE_1P5) | ADC_SMPR2_SMP_AN5(ADC_SAMPLE_1P5) |
+  ADC_SMPR2_SMP_AN2(ADC_SAMPLE_1P5) | ADC_SMPR2_SMP_AN3(ADC_SAMPLE_1P5) |
+  ADC_SMPR2_SMP_AN0(ADC_SAMPLE_1P5) | ADC_SMPR2_SMP_AN1(ADC_SAMPLE_1P5),
   ADC_SQR1_NUM_CH(MEAS_NUM_CH),
   NULL,
   ADC_SQR3_SQ5_N(ADC_CHANNEL_IN4) | ADC_SQR3_SQ6_N(ADC_CHANNEL_IN5) |
@@ -105,12 +105,35 @@ static THD_FUNCTION(SampleThread, arg) {
         case MEAS_NTC2:
         case MEAS_NTC3:
           avg = measInterpolateNTC(avg);
-        break;
+          break;
+        case MEAS_CURR1:
+        case MEAS_CURR2:
+        case MEAS_CURR3:
+          temp = avg - NULL_AMPER_ADC;
+          temp /= AMP_PER_ADC;
+          temp = -temp;
+          avg = (int)(temp * 10);
+          break;
       }
       chSysLock();
       measValue[ch] = (int16_t)avg;
       chSysUnlock();
     }
+
+    if(measGetValue(MEAS_CURR1) >= LED_ON_AMP)
+      palSetPad(GPIOB, GPIOB_LED1);
+    else
+      palClearPad(GPIOB, GPIOB_LED1);
+
+    if(measGetValue(MEAS_CURR2) >= LED_ON_AMP)
+      palSetPad(GPIOB, GPIOB_LED2);
+    else
+      palClearPad(GPIOB, GPIOB_LED2);
+
+    if(measGetValue(MEAS_CURR3) >= LED_ON_AMP)
+      palSetPad(GPIOB, GPIOB_LED3);
+    else
+      palClearPad(GPIOB, GPIOB_LED3);
     chThdSleepUntil(time);
   }
 }
