@@ -19,7 +19,7 @@ enum measChannels
   MEAS_NUM_CH
 };
 
-#define SAMPLE_FREQUENCY_MS 50
+#define SAMPLE_FREQUENCY_MS 100
 
 #define NULL_AMPER_ADC   2040
 #define AMP_PER_ADC      43.3
@@ -32,6 +32,9 @@ enum measChannels
 
 void init_measures();
 void cmd_getAdcValues(BaseSequentialStream *chp, int argc, char *argv[]);
+void cmd_getID(BaseSequentialStream *chp, int argc, char *argv[]);
 int16_t measGetValue(enum measChannels ch);
+int16_t measGetCurr(int i);
+
 
 #endif /* INCLUDE_MEASURE_H_ */

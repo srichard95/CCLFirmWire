@@ -85,6 +85,7 @@ static const ShellCommand commands[] = {
   {"threads", cmd_threads},
   {"test", cmd_test},
   {"adcvalues", cmd_getAdcValues},
+  {"getID", cmd_getID},
   {NULL, NULL}
 };
 

@@ -77,6 +77,8 @@ int16_t measInterpolateNTC(adcsample_t rawvalue){
   return value;
 }
 
+int measCurr[3];
+
 
 static THD_WORKING_AREA(waSampleThread, 512);
 static THD_FUNCTION(SampleThread, arg) {
@@ -107,8 +109,21 @@ static THD_FUNCTION(SampleThread, arg) {
           avg = measInterpolateNTC(avg);
           break;
         case MEAS_CURR1:
+          measCurr[0]=avg;
+          temp = avg - NULL_AMPER_ADC;
+          temp /= AMP_PER_ADC;
+          temp = -temp;
+          avg = (int)(temp * 10);
+          break;
         case MEAS_CURR2:
+          measCurr[1]=avg;
+          temp = avg - NULL_AMPER_ADC;
+          temp /= AMP_PER_ADC;
+          temp = -temp;
+          avg = (int)(temp * 10);
+          break;
         case MEAS_CURR3:
+          measCurr[2]=avg;
           temp = avg - NULL_AMPER_ADC;
           temp /= AMP_PER_ADC;
           temp = -temp;
@@ -136,6 +151,12 @@ static THD_FUNCTION(SampleThread, arg) {
       palClearPad(GPIOB, GPIOB_LED3);
     chThdSleepUntil(time);
   }
+}
+
+int16_t measGetCurr(int i)
+{
+  return measCurr[i];
+
 }
 
 
